@@ -1,0 +1,30 @@
+.header{
+    background-color: $colorBlack;
+  .h-top{
+    @include flex(space-between);
+    &__btn{
+      @extend %btn-input-reset;
+      width: 170px;
+      height: 34px;
+      background: #d34545;
+      color: $colorWhite;
+      font-weight: 400;
+      font-size: 20px;
+      font-family: $fontFamilyMontserrat serif;
+    }
+  }
+  .logo{
+    @include flex(flex-start);
+    color: $colorWhite;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 22px;
+    font-family: $fontFamilyMontserrat serif;
+      &__span:first-child{
+        margin-right: 5px;
+      }
+      &__span:last-child{
+        margin-left: 5px;
+      }
+    }
+}

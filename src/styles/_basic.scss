@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  background: $mainBackGround;
+  color: $mainColor;
+}
+.container{
+  width: 100%;
+  max-width: 1920px;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+main{
+  padding-left: 40px;
+  margin-top: 60px;
+  @include flex(flex-start,start);
+  width: 100%;
+}
