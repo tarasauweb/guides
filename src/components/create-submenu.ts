@@ -1,13 +1,17 @@
+import { ISubMenu } from '../interfaces';
 class CreateSubMenu {
-  props: any;
+  props: ISubMenu;
   selector: HTMLElement;
-  constructor(props: any, selector: HTMLElement) {
+  constructor(props: ISubMenu, selector: HTMLElement) {
     this.props = props;
     this.selector = selector;
     this.createSubMenuItem(props, this.selector);
   }
 
-  private createSubMenuItem(props: any, selector: HTMLElement): HTMLElement {
+  private createSubMenuItem(
+    props: ISubMenu,
+    selector: HTMLElement,
+  ): HTMLElement {
     const li = document.createElement('li');
     const link = this.createSubAnchor(props);
     li.insertAdjacentElement('afterbegin', link);
@@ -16,7 +20,7 @@ class CreateSubMenu {
     return selector;
   }
 
-  private createSubAnchor(props: any): HTMLElement {
+  private createSubAnchor(props: ISubMenu): HTMLElement {
     const link = document.createElement('a');
     link.setAttribute('href', props.path);
     link.setAttribute('type', props.type);

@@ -1,32 +1,12 @@
-interface ISubMenu {
-  linkName: string;
-  path: string;
-  type: string;
-}
-interface IStore {
-  submenu: {
-    events: [ISubMenu, ISubMenu, ISubMenu];
-    bosses: [ISubMenu, ISubMenu, ISubMenu];
-    treasures: [ISubMenu, ISubMenu, ISubMenu];
-    classes: [
-      ISubMenu,
-      ISubMenu,
-      ISubMenu,
-      ISubMenu,
-      ISubMenu,
-      ISubMenu,
-      ISubMenu,
-    ];
-  };
-}
+import { IStore } from '../interfaces';
 
 const store: IStore = {
   submenu: {
     events: [
       {
-        linkName: 'Events',
-        path: '/events',
-        type: 'events',
+        linkName: 'Ticket Events',
+        path: '/ticket-events',
+        type: 'ticket-events',
       },
       {
         linkName: 'Invasion',
@@ -34,16 +14,16 @@ const store: IStore = {
         type: 'invasion',
       },
       {
-        linkName: 'Ticket Events',
-        path: '/ticket-events',
-        type: 'ticket-events',
+        linkName: 'Events',
+        path: '/events',
+        type: 'events',
       },
     ],
     bosses: [
       {
-        linkName: 'Random Bosses',
-        path: '/random-bosses',
-        type: 'random-bosses',
+        linkName: 'Golden Bosses',
+        path: '/golden-bosses',
+        type: 'golden-bosses',
       },
       {
         linkName: 'Epic Bosses',
@@ -51,16 +31,16 @@ const store: IStore = {
         type: 'epic-bosses',
       },
       {
-        linkName: 'Golden Bosses',
-        path: '/golden-bosses',
-        type: 'golden-bosses',
+        linkName: 'Random Bosses',
+        path: '/random-bosses',
+        type: 'random-bosses',
       },
     ],
     treasures: [
       {
-        linkName: 'Boxes',
-        path: '/boxes',
-        type: 'boxes',
+        linkName: 'Scrolls',
+        path: '/scrolls',
+        type: 'scrolls',
       },
       {
         linkName: 'Jewels',
@@ -68,9 +48,9 @@ const store: IStore = {
         type: 'jewels',
       },
       {
-        linkName: 'Scrolls',
-        path: '/scrolls',
-        type: 'scrolls',
+        linkName: 'Boxes',
+        path: '/boxes',
+        type: 'boxes',
       },
     ],
     classes: [

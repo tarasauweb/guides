@@ -1,5 +1,5 @@
 import './styles/styles.scss';
-import store from './store';
+import store from './store/store';
 import renderContent from './render-pages';
 import menuAction from './menu-action';
 const content = document.querySelector('.content') as HTMLElement;
