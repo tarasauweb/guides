@@ -1,10 +1,11 @@
 import './styles/styles.scss';
-
+import store from './store';
+import renderContent from './render-pages';
+import menuAction from './menu-action';
 const content = document.querySelector('.content') as HTMLElement;
+const mainMenuLinks: HTMLElement[] = Array.from(
+  document.querySelectorAll('.menu__link')
+);
+renderContent(content, './pages/about-server-page.html');
 
-function include(address:string){
-  fetch(address).then(resp => resp.text())
-  .then(data => { content.innerHTML = data } )
-}
-
-include('./about-server-page.html');
+menuAction(store.submenu, mainMenuLinks);

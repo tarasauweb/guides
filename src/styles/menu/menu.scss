@@ -47,6 +47,33 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  &__subitem{
+    margin-top: 15px;
+    margin-left: 15px;
+    &:last-child{
+      padding-bottom: 15px;
+    }
+  }
+  &__sublink{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #acacac;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    border-bottom: 1px solid #acacac;
+    width: 240px;
+    padding-bottom: 11px;
+    display: block;
+    &:hover{
+        border-color: #ca3333;
+        color: #fff;
+        transition: 0.5s;
+    }
+  }
 }
 .menu__link:hover.menu__link:before{
   opacity: 1;
