@@ -1,0 +1,525 @@
+{
+  "events": [
+    {
+      "imgUrl": "../../public/events-page/elvelend.jpg",
+      "name": "Elvelend WS",
+      "NPC": "Mirage",
+      "Location": "Loren Market",
+      "Start": "20:05 MSK",
+      "days": "Tuesday, Thursday, Saturday",
+      "time": "30 min",
+      "info": {
+        "title": "Elvelend Warrior Siege",
+        "text": "This event takes place at the castle location. The sides are divided into attackers and defenders. The attackers start from gates 1 to 4 at the beginning of the location. The defenders start on the castle grounds.\"The attackers\" task is to break into the castle and hold at least 2 of the 3 statues until the event time expires. The winners of the event get access to a unique location. During the event, elite monsters and a boss will roam the location, dropping rewards.",
+        "task": "Event task:",
+        "about_task": "The main task is to hold 2 or 3 statues!",
+        "Drop": "Drop Guild Boss:",
+        "drop_boss_1": "Jewel of Excelent",
+        "drop_boss_2": "Jewel of Wings",
+        "drop_boss_3": "Feather of Condor",
+        "drop_boss_4": "Wings 3 lvl",
+        "title_monster": "Elite Monster",
+        "about_monster_1": "Jewel of Bless x10",
+        "about_monster_2": "Jewel of Soul x10",
+        "about_monster_3": "Jewel of Chaos x10",
+        "title_features": "Features",
+        "text_features_1": "Only one guild wins.",
+        "text_features_2": "The winning guild only gets access to the siege the next day!",
+        "text_features_3": "Find and kill elite monsters and the boss."
+      }
+    },
+    {
+      "imgUrl": "../../public/events-page/royal.jpg",
+      "name": "Battle Royal",
+      "NPC": "Bolo",
+      "Location": "Loren Market",
+      "Start": "4 times a day",
+      "days": "Every day",
+      "time": "15 min",
+      "info": {
+        "title": "Battle Royal",
+        "text": "Royal battle - only the strongest and luckiest win! Your task is to collect things and destroy other opponents. All Crywolf locations start in a randomly selected area. Random items, weapons, wings and magic classes fall to the ground. The fall of things and skills has been balanced, top skills have been removed, as well as skills that give advantages to classes, top skills have been removed, as well as skills that give advantages to classes. When you leave the event s area of ​​effect, you begin to deal damage. Over time, the area narrows and you need to move faster. Be the best and beat everyone.",
+        "task": "Win them all!",
+        "about_task": "Win them all!",
+        "Drop": "Drop:",
+        "drop_boss_1": "Jewel of Bless",
+        "drop_boss_2": "Jewel of Bless x10",
+        "drop_boss_3": "Jewel of Soul",
+        "drop_boss_4": "Jewel of Soul x10",
+        "drop_boss_5": "Jewel of Life",
+        "drop_boss_6": "Jewel of Life x10",
+        "drop_boss_7": "Jewel of Creation",
+        "drop_boss_8": "Jewel of Creation x10",
+        "drop_boss_9": "Red Ribon Box",
+        "title_features": "Features",
+        "text_features_1": "Look for AIR DROP."
+      }
+    },
+    {
+      "imgUrl": "../../public/events-page/deathmatch.jpg",
+      "name": "Deathmatch",
+      "NPC": "Resonance",
+      "Location": "Loren Market",
+      "Start": "21:30",
+      "days": "Every day",
+      "time": "10 min",
+      "info": {
+        "title": "Deathmatch",
+        "text": "Deathmatch - is a team deathmatch where you are randomly divided into 2 teams and your task is to defeat the other team.",
+        "task": "Defeat the enemy team!",
+        "about_task": "Win them all!",
+        "Drop": "Drop:",
+        "drop_boss_1": "Pink Chocolate box"
+      }
+    },
+    {
+      "imgUrl": "../../public/events-page/drop.jpg",
+      "name": "Drop Event",
+      "NPC": "Dungeon",
+      "Location": "Lorencia, Devias, Tarkan",
+      "Start": "Every 6 hours",
+      "days": "Every day",
+      "time": "-",
+      "info": {
+        "title": "Drop Event",
+        "text": "Drop Event - standard event on the expanses of MU Online. Collect stones faster than everyone else!",
+        "task": "Picking up drops faster than your opponents.",
+        "Drop": "Drop:",
+        "drop_boss_1": "Jewel of Bless",
+        "drop_boss_2": "Jewel of Soul",
+        "drop_boss_3": "Jewel of Chaos",
+        "drop_boss_4": "Jewel of Life",
+        "title_features": "Features",
+        "text_features_1": "Stones accidentally fall to the ground."
+      }
+    },
+    {
+      "imgUrl": "../../public/events-page/guild.jpg",
+      "name": "Guild Boss",
+      "NPC": "-",
+      "Location": "Kanturu: Ruins, Islands",
+      "Start": "Every 6 hours",
+      "days": "Every day",
+      "time": "30 min",
+      "info": {
+        "title": "Guild Boss",
+        "text": "Guild Boss - in locations Kanturu Ruins, Kantutu Islands dangerous monsters appear.",
+        "task": "Find and kill bosses faster than anyone else!",
+        "Drop": "Drop:",
+        "drop_boss_1": "1 lvl Boss x6",
+        "drop_boss_2": "Box Custom",
+        "drop_boss_3": "2 lvl Boss x2",
+        "drop_boss_4": "Harmony x10",
+        "title_features": "Features",
+        "text_features_1": "Find and kill all guild bosses first!"
+      }
+    },
+    {
+      "imgUrl": "../../public/events-page/afk.jpg",
+      "name": "AFK Arena",
+      "NPC": "Arena Guard",
+      "Location": "Loren Market",
+      "Start": "-",
+      "days": "Every day",
+      "time": "6 hours free",
+      "info": {
+        "title": "AFK Arena",
+        "text": "AFK Arena - a place of peace and tranquility, kill monsters and collect treasures!",
+        "task": "Kill monsters and collect treasures!",
+        "Drop": "Drop:",
+        "drop_boss_1": "Gemstone",
+        "drop_boss_2": "Jewel of Creation",
+        "drop_boss_3": "Jewel of Life",
+        "drop_boss_4": "Jewel of Bless",
+        "drop_boss_5": "Jewel of Soul",
+        "drop_boss_6": "Jewel of Chaos"
+      }
+    },
+    {
+      "imgUrl": "../../public/events-page/demons.jpg",
+      "name": "Demons",
+      "NPC": "-",
+      "Location": "Several",
+      "Start": "-",
+      "days": "Every 8 hours",
+      "time": "30 min",
+      "info": {
+        "title": "Demons",
+        "text": "Demons - you will be attacked by hordes of demons! Deflect the waves of demons and get treasure!",
+        "task": "Kill demons and pass waves of demons onward.",
+        "Location": "Atlans, Lost Tower, Tarkan, Aida, Swamp, Kanturu.",
+        "Drop": "Demon Titan",
+        "drop_boss_1": "Book Titan Anger",
+        "drop_boss_2": "Zen",
+        "drop_boss_3": "Jewel of Bless",
+        "drop_boss_4": "Jewel of Soul",
+        "drop_boss_5": "Jewel of Chaos",
+        "title_monster": "Drop Demon Titan",
+        "about_monster_1": "Book Tantalose Panishment",
+        "about_monster_2": "Jewel of Bless",
+        "about_monster_3": "Jewel of Soull",
+        "title_features": "Features",
+        "text_features_1": "Books can be opened whenever and wherever you like.",
+        "text_features_2": "You can go through with any number of players.",
+        "text_features_3": "Every book unlocks new demons."
+      }
+    },
+    {
+      "imgUrl": "../../public/events-page/cherry.jpg",
+      "name": "Cherry Blossom",
+      "NPC": "Cherry Blossom Spirit",
+      "Location": "Noria",
+      "Start": "-",
+      "days": "Every day",
+      "time": "15 min",
+      "info": {
+        "title": "Cherry Blossom",
+        "text": "Fast Quiz - you have to answer 1 question, if you answer correctly you get a reward!",
+        "task": "Look for White Branch.",
+        "Drop": "Drop:",
+        "drop_boss_1": "Jewel of Level",
+        "drop_boss_2": "Jewel of Wings",
+        "drop_boss_3": "Jewel of Skill",
+        "drop_boss_4": "Jewel of Bless",
+        "drop_boss_5": "Jewel of Soul",
+        "drop_boss_6": "Jewel of Chaos"
+      }
+    },
+    {
+      "imgUrl": "../../public/events-page/fast-quiz.jpg",
+      "name": "Fast Quiz",
+      "NPC": "-",
+      "Location": "-",
+      "Start": "-",
+      "days": "Every day",
+      "time": "5 min",
+      "info": {
+        "title": "Fast Quiz",
+        "text": "Fast Quiz - you have to answer 1 question, if you answer correctly you get a reward!",
+        "task": "Look for White Branch.",
+        "Drop": "Demon Titan:",
+        "title_features": "Features:",
+        "text_features_1": "You can only buy for 1 day."
+      }
+    }
+  ],
+  "invasion": [
+    {
+      "imgUrl": "../../public/invasion-page/red-dragon.jpg",
+      "name": "Red Dragon",
+      "Quantity": 5,
+      "Location": "Aida",
+      "Respawn": "6 hours",
+      "Time": "30 min",
+      "info": {
+        "title": "Red Dragon",
+        "text": "Red Dragon lives in the Aida, a formidable dragon that stores priceless treasures.",
+        "Drop": "Drop",
+        "title_drop_1": "Talisman of Chaos Assembly",
+        "title_drop_2": "Jewel of Excelent",
+        "title_drop_3": "Jewel of Luck",
+        "title_drop_4": "Jewel of Socket",
+        "title_drop_5": "Jewel of Skill"
+      }
+    },
+    {
+      "imgUrl": "../../public/invasion-page/Leon Spirit.jpg",
+      "name": "Leon Spirit",
+      "Quantity": 1,
+      "Location": "Lorencia",
+      "Respawn": "5 hours",
+      "Time": "1 hour",
+      "info": {
+        "title": "Leon Spirit",
+        "text": "Leon Spirit lives in the Lorencia location, a fierce spirit thirsty for revenge!",
+        "Drop": "Drop",
+        "title_drop_1": "Box of Kundun +3",
+        "title_drop_2": "Box of Kundun +4",
+        "title_drop_3": "Special stones for Meridian Enhancement"
+      }
+    },
+    {
+      "imgUrl": "../../public/invasion-page/Jungle King.jpg",
+      "name": "Jungle King",
+      "Quantity": 1,
+      "Location": "Noria",
+      "Respawn": "5 hours",
+      "Time": "1 hour",
+      "info": {
+        "title": "Jungle King",
+        "text": "Jungle King lives in the Noria location, ready to fight anyone!",
+        "Drop": "Drop",
+        "title_drop_1": "Box of Kundun +3",
+        "title_drop_2": "Box of Kundun +4",
+        "title_drop_3": "Special stones for Meridian Enhancement"
+      }
+    },
+    {
+      "imgUrl": "../../public/invasion-page/butcher.jpg",
+      "name": "Butcher",
+      "Quantity": 1,
+      "Location": "Devias",
+      "Respawn": "5 hours",
+      "Time": "1 hour",
+      "info": {
+        "title": "Butcher",
+        "text": "Butcher lives in the Devias location and gnaws all the bones!",
+        "Drop": "Drop",
+        "title_drop_1": "Box of Kundun +3",
+        "title_drop_2": "Box of Kundun +4",
+        "title_drop_3": "Special stones for Meridian Enhancement"
+      }
+    },
+    {
+      "imgUrl": "../../public/invasion-page/santa.jpg",
+      "name": "Cursed Santa",
+      "Quantity": 1,
+      "Location": "Devias",
+      "Respawn": "2 hours",
+      "Time": "30 min",
+      "info": {
+        "title": "Cursed Santa",
+        "text": "Cursed Santa lives in the Devias location and is ready to give gifts.",
+        "Drop": "Cursed Santa Drop:",
+        "title_drop_1": "Blue Chocolate Box",
+        "title_drop_2": "Box of Kundun +4",
+        "title_drop_3": "Special stones for Meridian Enhancement",
+        "Drop_2": "Goblins Drop:",
+        "title_drop_2_1": "White Cherry Blossom Branch",
+        "title_drop_2_2": "Cherry Blossom Wine (up to 5000 mana)",
+        "title_drop_2_3": "Cherry Blossom Cake (up to 2500 hp)",
+        "title_drop_2_4": "Cherry Blossom Flower Petal (dmg +100)"
+      }
+    },
+    {
+      "imgUrl": "../../public/invasion-page/White Whizard.jpg",
+      "name": "White Whizard",
+      "Quantity": 1,
+      "Location": "Lorencia,Noria",
+      "Respawn": "4 hours",
+      "Time": "30 min",
+      "info": {
+        "title": "White Whizard",
+        "text": "White Whizard is an important enemy that drops jewels and a special ring that drops from its guard.",
+        "Drop": "White Whizard Drop:",
+        "title_drop_1": "WW Ring x3",
+        "Drop_2": "Orc Guard Drop:",
+        "title_drop_2_1": "Jewel of Bless",
+        "title_drop_2_2": "Jewel of Soul",
+        "title_drop_2_3": "Jewel of Chaos",
+        "title_drop_2_4": "Jewel of Creation",
+        "title_drop_2_5": "Jewel of Life"
+      }
+    },
+    {
+      "imgUrl": "../../public/invasion-page/king.jpg",
+      "name": "Skeleton King",
+      "Quantity": 1,
+      "Location": "Lorencia,Noria",
+      "Respawn": "4 hours",
+      "Time": "30 min",
+      "info": {
+        "title": "Skeleton King",
+        "text": "White Whizard is an important enemy that drops jewels and a special ring that drops from its guard.",
+        "Drop": "Skeleton King Drop:",
+        "title_drop_1": "Pet Unicorn",
+        "Drop_2": "Bone Drop:",
+        "title_drop_2_1": "Jewel of Bless",
+        "title_drop_2_2": "Jewel of Soul",
+        "title_drop_2_3": "Jewel of Chaos",
+        "title_drop_2_4": "Jewel of Creation",
+        "title_drop_2_5": "Jewel of Life"
+      }
+    },
+    {
+      "imgUrl": "../../public/invasion-page/boss.jpg",
+      "name": "Golden Boss",
+      "Quantity": "Several",
+      "Location": "Several",
+      "Respawn": "-",
+      "Time": "30 hours",
+      "info": {
+        "title": "Golden Boss",
+        "text": "Golden Invasion - the golden legion of monsters awaits you!",
+        "Drop": "Drop:",
+        "title_drop_1": "Box of Kundun +1 Golden Goblin",
+        "title_drop_2": "Box of Kundun +1 Golden Goblin",
+        "title_drop_3": "Box of Kundun +1 Golden Goblin"
+      }
+    }
+  ],
+  "ticket-events": [
+    {
+      "imgUrl": "../../public/ticket-page/Blood Castle.jpg",
+      "name": "Blood Castle",
+      "NPC": "-",
+      "Location": "Loren Market",
+      "Respawn": "12:00 AM",
+      "Limit": 2,
+      "info": {
+        "title": "Blood Castle",
+        "text": "Blood Castle! Powered up monsters!",
+        "Limit": "Limits:",
+        "number_limits": 2,
+        "zeroing_limit": "Zeroing the limit:",
+        "zeroing_limit_time": "12:00 AM",
+        "Drop": "Drop",
+        "drop_name_1": "Jewel of Bless",
+        "drop_name_2": "Jewel of Soul",
+        "drop_name_3": "Jewel of Chaos",
+        "drop_name_4": "Jewel of Chaos x10",
+        "drop_name_5": "Jewel of Bless x10",
+        "drop_name_6": "Jewel of Soul x10",
+        "Features": "Features",
+        "features_text_1": "Inside the event you can buy reinforcements.",
+        "features_text_2": "For VIP accounts, for killing 800 monsters will give jewel.",
+        "features_text_3": "If you pass the 3rd profession, you can only attend Master Level BC8, you can not go to BC 1-7!"
+      }
+    },
+    {
+      "imgUrl": "../../public/ticket-page/Duoble Goer.jpg",
+      "name": "Double Goer",
+      "NPC": "Lugard",
+      "Location": "Event Loren",
+      "Respawn": "Every day",
+      "Limit": "-",
+      "info": {
+        "title": "Double Goer",
+        "text": "DuobleGoer – terrible monsters are trying to get through the enemy portal! You or your team need to prevent monsters from getting to your portal. Hold off waves of monsters and get an epic reward. The ticket can drop from any monster on the server, starting from the city of Icarus and above!",
+        "Task": "Task",
+        "task_text_1": "You or your team need to prevent monsters from getting to your portal.",
+        "Ticket": "Ticket",
+        "ticket_text_1": "Ticket Mirror of Dimensions",
+        "zeroing_limit": "Time",
+        "zeroing_limit_time": "15 min",
+        "Drop": "Random drop:",
+        "drop_name_1": "Golden Box",
+        "drop_name_2": "Silver Box",
+        "drop_name_3": "Golden Key",
+        "drop_name_4": "Silver Key",
+        "Features": "Features",
+        "features_text_1": "Can participate from 1 to 5 players.",
+        "features_text_2": "The ticket drops from any monsters, starting from the city of Icarus and above!"
+      }
+    },
+    {
+      "imgUrl": "../../public/ticket-page/Endless Tower.jpg",
+      "name": "Endless Tower",
+      "NPC": "Guard",
+      "Location": "Event Loren",
+      "Respawn": "Every day",
+      "Limit": "-",
+      "info": {
+        "title": "Endless Tower",
+        "text": "Endless Tower - your task is to repel waves of monsters and kill bosses, the higher the wave the more valuable the reward!",
+        "Task": "Task",
+        "task_text_1": "Is to repel waves of monsters and kill bosses.",
+        "Ticket": "Ticket",
+        "ticket_text_1": "Ticket of Endless Tower",
+        "zeroing_limit": "Time",
+        "zeroing_limit_time": "15 min",
+        "Drop": "Drop:",
+        "drop_name_1": "WPoint and more",
+        "drop_name_2": "Red Chocolate box",
+        "Features": "Features",
+        "features_text_1": "Only 1 rooms are always open to attend the event.",
+        "features_text_2": "The event can be attended by 1 to 5 players.",
+        "features_text_3": "When the event is started, the NPC Guard disappears and returns to its place when the event is over and the room is open"
+      }
+    },
+    {
+      "imgUrl": "../../public/ticket-page/Devil Square.jpg",
+      "name": "Devil Square",
+      "NPC": "Charon",
+      "Location": "Loren Market",
+      "Respawn": "12:00 AM",
+      "Limit": 2,
+      "info": {
+        "title": "Devil Square",
+        "text": "Devil Square! Powered up monsters!",
+        "Limit": "Limits",
+        "number_limits": 4,
+        "zeroing_limit": "Zeroing the limit:",
+        "zeroing_limit_time": "12:00 AM",
+        "Drop": "Drop:",
+        "drop_name_1": "Jewel of Bless",
+        "drop_name_2": "Jewel of Soul",
+        "drop_name_3": "Jewel of Chaos",
+        "Features": "Features",
+        "features_text_1": "For VIP accounts, for killing 800 monsters will give jewel."
+      }
+    },
+    {
+      "imgUrl": "../../public/ticket-page/Chaos Castle.jpg",
+      "name": "Chaos Castle",
+      "NPC": "-",
+      "Location": "Lorencia Bar",
+      "Respawn": "12:00 AM",
+      "Limit": 4,
+      "info": {
+        "title": "Chaos Castle",
+        "text": "Chaos Castle! Only 1 will survive!",
+        "Limit": "Limits",
+        "number_limits": 4,
+        "zeroing_limit": "Zeroing the limit:",
+        "zeroing_limit_time": "12:00 AM",
+        "Drop": "Drop:",
+        "drop_name_1": "Jewel of Bless",
+        "drop_name_2": "Jewel of Soul",
+        "drop_name_3": "Jewel of Chaos",
+        "drop_name_4": "Purple Chaos Box"
+      }
+    },
+    {
+      "imgUrl": "../../public/ticket-page/Imperial Guard.jpg",
+      "name": "Imperial Guard",
+      "NPC": "Jerint the Assistant",
+      "Location": "Event Loren",
+      "Respawn": "Every day",
+      "Limit": "-",
+      "info": {
+        "title": "Imperial Guard",
+        "text": "Imperial Guardian - you have to get through all the halls and destroy everyone!",
+        "Task": "Task",
+        "task_text_1": "Go through all the rooms and kill all the bosses!",
+        "Ticket": "Ticket",
+        "ticket_text_1": "Gaion is Order (assembled from Suspicious Scrap of Paper x5)",
+        "zeroing_limit": "Time",
+        "zeroing_limit_time": "15 min",
+        "Drop": "Random drop:",
+        "drop_name_1": "Golden Box",
+        "drop_name_2": "Silver Box",
+        "drop_name_3": "Golden Key",
+        "drop_name_4": "Silver Key",
+        "Features": "Features",
+        "features_text_1": "Can participate from 2-5 players",
+        "features_text_2": "The ticket drops from any monsters, starting from the city of Icarus and above!",
+        "features_text_3": "Imperial Guardian is divided into 7 rounds, which are distributed by day of the week (Monday: Round 1, Tuesday: Round 2, ..., Sunday: Round 7)."
+      }
+    },
+    {
+      "imgUrl": "../../public/ticket-page/Kalima 1-7.jpg",
+      "name": "Kalima 1-7",
+      "NPC": "-",
+      "Location": "Kalima 1~7",
+      "Respawn": "Every day",
+      "Limit": "-",
+      "info": {
+        "title": "Kalima 1-7",
+        "text": "Kalima - reinforced locations, which are inhabited by different monsters, from which fall valuable treasures.",
+        "Task": "Task",
+        "task_text_1": "Dominate and hold the spots.",
+        "Ticket": "Ticket",
+        "ticket_text_1": "Lost Map 1~7",
+        "Drop": "Drop:",
+        "drop_name_1": "Jewel of Bless",
+        "drop_name_2": "Jewel of Soul",
+        "drop_name_3": "Jewel of Creation",
+        "drop_name_4": "Zen drop 200%",
+        "Features": "Features",
+        "features_text_1": "Increased drop of Jewels.",
+        "features_text_2": "Increased zen drop 200%."
+      }
+    }
+  ]
+}

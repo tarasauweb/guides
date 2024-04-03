@@ -26,6 +26,10 @@ class CreateSubMenu {
     link.setAttribute('type', props.type);
     link.textContent = props.linkName;
     link.classList.add('menu__sublink');
+    link.addEventListener('click', () => {
+      // eslint-disable-next-line no-restricted-globals
+      location.hash = props.type;
+    });
     return link;
   }
 }
