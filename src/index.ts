@@ -8,4 +8,4 @@ const mainMenuLinks: HTMLElement[] = Array.from(
 );
 renderStaticPage(content, './static-page/about-server-page.html');
 
-menuAction(store.submenu, mainMenuLinks);
+menuAction(store.submenu, mainMenuLinks, content);

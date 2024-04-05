@@ -1,9 +1,11 @@
 import CreateSubMenu from '../components/create-submenu';
 import renderStaticPage from './render-staic-page';
 import { ISubMenu, IstoreSubMenu } from '../interfaces';
-import renderContent from './render-content';
-function menuAction(props: IstoreSubMenu, links: Array<HTMLElement>) {
-  const content = document.querySelector('.content') as HTMLElement;
+function renderMenu(
+  props: IstoreSubMenu,
+  links: Array<HTMLElement>,
+  content: HTMLElement,
+) {
   let prevSubMenu: HTMLElement;
   links.forEach((item) => {
     item.addEventListener('click', (e) => {
@@ -20,17 +22,11 @@ function menuAction(props: IstoreSubMenu, links: Array<HTMLElement>) {
             const subMenu = new CreateSubMenu(
               menuItem,
               li.children[1] as HTMLElement,
+              content,
             );
             return subMenu;
           });
         }
-        prevSubMenu.addEventListener('click', (link) => {
-          link.preventDefault();
-          const typeLinkForContent = (link.target as HTMLElement).getAttribute(
-            'type',
-          );
-          renderContent(content, typeLinkForContent);
-        });
       }
       if (item.getAttribute('page') === 'about-server') {
         renderStaticPage(content, './static-page/about-server-page.html');
@@ -39,4 +35,4 @@ function menuAction(props: IstoreSubMenu, links: Array<HTMLElement>) {
   });
 }
 
-export default menuAction;
+export default renderMenu;

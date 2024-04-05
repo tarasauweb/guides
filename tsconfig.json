@@ -8,6 +8,6 @@
     "sourceMap": true,
     "allowJs": true,
     "strict": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
   }
 }

@@ -1,10 +1,13 @@
 import { ISubMenu } from '../interfaces';
+import renderContent from '../renders/render-content';
 class CreateSubMenu {
   props: ISubMenu;
   selector: HTMLElement;
-  constructor(props: ISubMenu, selector: HTMLElement) {
+  content: HTMLElement;
+  constructor(props: ISubMenu, selector: HTMLElement, content: HTMLElement) {
     this.props = props;
     this.selector = selector;
+    this.content = content;
     this.createSubMenuItem(props, this.selector);
   }
 
@@ -26,9 +29,11 @@ class CreateSubMenu {
     link.setAttribute('type', props.type);
     link.textContent = props.linkName;
     link.classList.add('menu__sublink');
-    link.addEventListener('click', () => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
       // eslint-disable-next-line no-restricted-globals
       location.hash = props.type;
+      renderContent(this.content, props.type);
     });
     return link;
   }
