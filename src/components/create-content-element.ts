@@ -1,5 +1,5 @@
 // eslint-disable-next-line camelcase
-import { IEvents, IInvasion, iTicket_Events } from '../interfaces';
+import { IEvents, IInvasion, iTicket_Events, IInfo } from '../interfaces';
 // eslint-disable-next-line camelcase
 type contentType = IEvents | IInvasion | iTicket_Events;
 class CreateContentElement {
@@ -14,13 +14,57 @@ class CreateContentElement {
   private createContent() {
     if (this.props) {
       const arrForContent = structuredClone(this.props);
+      this.content.classList.add('content__active');
+      const allDivsWithContent = this.createDivWithAllElements();
       arrForContent.forEach((element) => {
-        this.createElement(this.content, element);
+        allDivsWithContent.insertAdjacentElement(
+          'beforeend',
+          this.createElement(element),
+        );
       });
+      this.content.insertAdjacentElement('beforeend', allDivsWithContent);
     }
   }
 
-  private createElement(content: HTMLElement, props: contentType) {
+  private createDivWithAllElements() {
+    const div = document.createElement('div');
+    div.classList.add('content__left');
+    return div;
+  }
+
+  private createContentInfo(props: IInfo) {
+    const contentRight = document.createElement('div');
+    contentRight.classList.add('content__right');
+    Object.keys(props).forEach((elem) => {
+      if (elem === 'title') {
+        const title = document.createElement('h2');
+        title.classList.add('content__title');
+        title.textContent = `${props[elem as keyof typeof props]}`;
+        contentRight.insertAdjacentElement('afterbegin', title);
+      }
+      if (elem === 'text') {
+        const text = document.createElement('p');
+        text.classList.add('content__text');
+        text.textContent = `${props[elem as keyof typeof props]}`;
+        contentRight.insertAdjacentElement('beforeend', text);
+      }
+      if (elem.includes('title_')) {
+        const title = document.createElement('h3');
+        title.classList.add('content__subtitle');
+        title.textContent = `${props[elem as keyof typeof props]}`;
+        contentRight.insertAdjacentElement('beforeend', title);
+      }
+      if (elem !== 'title' && elem !== 'text' && !elem.includes('title_')) {
+        const otherInfo = document.createElement('p');
+        otherInfo.classList.add('content__subtext');
+        otherInfo.textContent = `${props[elem as keyof typeof props]}`;
+        contentRight.insertAdjacentElement('beforeend', otherInfo);
+      }
+    });
+    return contentRight;
+  }
+
+  private createElement(props: contentType) {
     const divMian = document.createElement('div') as HTMLElement;
     const image = document.createElement('img') as HTMLElement;
     image.classList.add('content__image');
@@ -39,8 +83,14 @@ class CreateContentElement {
         divMian.insertAdjacentElement('beforeend', divInformation);
       }
     });
-    content.insertAdjacentElement('beforeend', divMian);
-    return content;
+    divMian.addEventListener('click', () => {
+      if (this.content.children[1]) this.content.children[1].remove();
+      this.content.insertAdjacentElement(
+        'beforeend',
+        this.createContentInfo(props.info),
+      );
+    });
+    return divMian;
   }
 }
 

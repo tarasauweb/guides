@@ -1,16 +1,25 @@
 .content{
-  margin-left: 30px;
   width: 100%;
+  margin-left: 30px;
   max-width: 1500px;
   padding-bottom: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  &__active{
+    @include flex(space-between,flex-start);
+  }
+  &__left{
+    width: 100%;
+    @include flex(space-between);
+    flex-wrap: wrap;
+    flex-basis: 60%;
+  }
+  &__right{
+    flex-basis: 37%;
+  }
   &__block{
     width: 270px;
     height: 350px;
     margin-bottom: 20px;
+    cursor: pointer;
   }
   &__name{
     font-family: $fontFamilyMontserrat;
@@ -26,10 +35,23 @@
     color: #d3b445;
   }
   &__image{
-    width: 270px;
+    max-width: 270px;
     height: 140px;
+    width: 100%;
   }
   &__info{
     margin-bottom: 10px;
+  }
+  &__title{
+    color: $colorWhite;
+  }
+  &__text{
+    margin: 10px 0px;
+  }
+  &__subtitle{
+    color: #d3b445;
+  }
+  &__subtitle{
+    margin: 10px 0;
   }
 }

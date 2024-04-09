@@ -11,9 +11,9 @@
       "info": {
         "title": "Elvelend Warrior Siege",
         "text": "This event takes place at the castle location. The sides are divided into attackers and defenders. The attackers start from gates 1 to 4 at the beginning of the location. The defenders start on the castle grounds.\"The attackers\" task is to break into the castle and hold at least 2 of the 3 statues until the event time expires. The winners of the event get access to a unique location. During the event, elite monsters and a boss will roam the location, dropping rewards.",
-        "task": "Event task:",
+        "title_task": "Event task",
         "about_task": "The main task is to hold 2 or 3 statues!",
-        "Drop": "Drop Guild Boss:",
+        "title_drop": "Drop Guild Boss",
         "drop_boss_1": "Jewel of Excelent",
         "drop_boss_2": "Jewel of Wings",
         "drop_boss_3": "Feather of Condor",
@@ -39,9 +39,7 @@
       "info": {
         "title": "Battle Royal",
         "text": "Royal battle - only the strongest and luckiest win! Your task is to collect things and destroy other opponents. All Crywolf locations start in a randomly selected area. Random items, weapons, wings and magic classes fall to the ground. The fall of things and skills has been balanced, top skills have been removed, as well as skills that give advantages to classes, top skills have been removed, as well as skills that give advantages to classes. When you leave the event s area of ​​effect, you begin to deal damage. Over time, the area narrows and you need to move faster. Be the best and beat everyone.",
-        "task": "Win them all!",
-        "about_task": "Win them all!",
-        "Drop": "Drop:",
+        "title_drop": "Drop",
         "drop_boss_1": "Jewel of Bless",
         "drop_boss_2": "Jewel of Bless x10",
         "drop_boss_3": "Jewel of Soul",
@@ -66,9 +64,9 @@
       "info": {
         "title": "Deathmatch",
         "text": "Deathmatch - is a team deathmatch where you are randomly divided into 2 teams and your task is to defeat the other team.",
-        "task": "Defeat the enemy team!",
+        "title_task": "Defeat the enemy team!",
         "about_task": "Win them all!",
-        "Drop": "Drop:",
+        "title_drop": "Drop",
         "drop_boss_1": "Pink Chocolate box"
       }
     },
@@ -83,8 +81,8 @@
       "info": {
         "title": "Drop Event",
         "text": "Drop Event - standard event on the expanses of MU Online. Collect stones faster than everyone else!",
-        "task": "Picking up drops faster than your opponents.",
-        "Drop": "Drop:",
+        "title_task": "Picking up drops faster than your opponents.",
+        "title_drop": "Drop",
         "drop_boss_1": "Jewel of Bless",
         "drop_boss_2": "Jewel of Soul",
         "drop_boss_3": "Jewel of Chaos",
@@ -104,8 +102,8 @@
       "info": {
         "title": "Guild Boss",
         "text": "Guild Boss - in locations Kanturu Ruins, Kantutu Islands dangerous monsters appear.",
-        "task": "Find and kill bosses faster than anyone else!",
-        "Drop": "Drop:",
+        "title_task": "Find and kill bosses faster than anyone else!",
+        "title_drop": "Drop",
         "drop_boss_1": "1 lvl Boss x6",
         "drop_boss_2": "Box Custom",
         "drop_boss_3": "2 lvl Boss x2",
@@ -125,8 +123,8 @@
       "info": {
         "title": "AFK Arena",
         "text": "AFK Arena - a place of peace and tranquility, kill monsters and collect treasures!",
-        "task": "Kill monsters and collect treasures!",
-        "Drop": "Drop:",
+        "title_task": "Kill monsters and collect treasures!",
+        "title_drop": "Drop",
         "drop_boss_1": "Gemstone",
         "drop_boss_2": "Jewel of Creation",
         "drop_boss_3": "Jewel of Life",
@@ -146,9 +144,9 @@
       "info": {
         "title": "Demons",
         "text": "Demons - you will be attacked by hordes of demons! Deflect the waves of demons and get treasure!",
-        "task": "Kill demons and pass waves of demons onward.",
+        "title_task": "Kill demons and pass waves of demons onward.",
         "Location": "Atlans, Lost Tower, Tarkan, Aida, Swamp, Kanturu.",
-        "Drop": "Demon Titan",
+        "title_drop": "Demon Titan",
         "drop_boss_1": "Book Titan Anger",
         "drop_boss_2": "Zen",
         "drop_boss_3": "Jewel of Bless",
@@ -175,8 +173,8 @@
       "info": {
         "title": "Cherry Blossom",
         "text": "Fast Quiz - you have to answer 1 question, if you answer correctly you get a reward!",
-        "task": "Look for White Branch.",
-        "Drop": "Drop:",
+        "title_task": "Look for White Branch.",
+        "title_drop": "Drop",
         "drop_boss_1": "Jewel of Level",
         "drop_boss_2": "Jewel of Wings",
         "drop_boss_3": "Jewel of Skill",
@@ -196,8 +194,8 @@
       "info": {
         "title": "Fast Quiz",
         "text": "Fast Quiz - you have to answer 1 question, if you answer correctly you get a reward!",
-        "task": "Look for White Branch.",
-        "Drop": "Demon Titan:",
+        "title_task": "Look for White Branch.",
+        "title_drop": "Demon Titan:",
         "title_features": "Features:",
         "text_features_1": "You can only buy for 1 day."
       }
@@ -214,7 +212,7 @@
       "info": {
         "title": "Red Dragon",
         "text": "Red Dragon lives in the Aida, a formidable dragon that stores priceless treasures.",
-        "Drop": "Drop",
+        "title_drop": "Drop",
         "title_drop_1": "Talisman of Chaos Assembly",
         "title_drop_2": "Jewel of Excelent",
         "title_drop_3": "Jewel of Luck",
@@ -232,7 +230,7 @@
       "info": {
         "title": "Leon Spirit",
         "text": "Leon Spirit lives in the Lorencia location, a fierce spirit thirsty for revenge!",
-        "Drop": "Drop",
+        "title_drop": "Drop",
         "title_drop_1": "Box of Kundun +3",
         "title_drop_2": "Box of Kundun +4",
         "title_drop_3": "Special stones for Meridian Enhancement"
@@ -248,7 +246,7 @@
       "info": {
         "title": "Jungle King",
         "text": "Jungle King lives in the Noria location, ready to fight anyone!",
-        "Drop": "Drop",
+        "title_drop": "Drop",
         "title_drop_1": "Box of Kundun +3",
         "title_drop_2": "Box of Kundun +4",
         "title_drop_3": "Special stones for Meridian Enhancement"
@@ -264,7 +262,7 @@
       "info": {
         "title": "Butcher",
         "text": "Butcher lives in the Devias location and gnaws all the bones!",
-        "Drop": "Drop",
+        "title_drop": "Drop",
         "title_drop_1": "Box of Kundun +3",
         "title_drop_2": "Box of Kundun +4",
         "title_drop_3": "Special stones for Meridian Enhancement"
@@ -280,7 +278,7 @@
       "info": {
         "title": "Cursed Santa",
         "text": "Cursed Santa lives in the Devias location and is ready to give gifts.",
-        "Drop": "Cursed Santa Drop:",
+        "title_drop": "Cursed Santa Drop",
         "title_drop_1": "Blue Chocolate Box",
         "title_drop_2": "Box of Kundun +4",
         "title_drop_3": "Special stones for Meridian Enhancement",
@@ -301,9 +299,9 @@
       "info": {
         "title": "White Whizard",
         "text": "White Whizard is an important enemy that drops jewels and a special ring that drops from its guard.",
-        "Drop": "White Whizard Drop:",
+        "title_drop": "White Whizard Drop:",
         "title_drop_1": "WW Ring x3",
-        "Drop_2": "Orc Guard Drop:",
+        "Drop_2": "Orc Guard Drop",
         "title_drop_2_1": "Jewel of Bless",
         "title_drop_2_2": "Jewel of Soul",
         "title_drop_2_3": "Jewel of Chaos",
@@ -321,9 +319,9 @@
       "info": {
         "title": "Skeleton King",
         "text": "White Whizard is an important enemy that drops jewels and a special ring that drops from its guard.",
-        "Drop": "Skeleton King Drop:",
+        "title_drop": "Skeleton King Drop:",
         "title_drop_1": "Pet Unicorn",
-        "Drop_2": "Bone Drop:",
+        "Drop_2": "Bone Drop",
         "title_drop_2_1": "Jewel of Bless",
         "title_drop_2_2": "Jewel of Soul",
         "title_drop_2_3": "Jewel of Chaos",
@@ -341,7 +339,7 @@
       "info": {
         "title": "Golden Boss",
         "text": "Golden Invasion - the golden legion of monsters awaits you!",
-        "Drop": "Drop:",
+        "title_drop": "Drop",
         "title_drop_1": "Box of Kundun +1 Golden Goblin",
         "title_drop_2": "Box of Kundun +1 Golden Goblin",
         "title_drop_3": "Box of Kundun +1 Golden Goblin"
@@ -363,7 +361,7 @@
         "number_limits": 2,
         "zeroing_limit": "Zeroing the limit:",
         "zeroing_limit_time": "12:00 AM",
-        "Drop": "Drop",
+        "title_drop": "Drop",
         "drop_name_1": "Jewel of Bless",
         "drop_name_2": "Jewel of Soul",
         "drop_name_3": "Jewel of Chaos",
@@ -392,7 +390,7 @@
         "ticket_text_1": "Ticket Mirror of Dimensions",
         "zeroing_limit": "Time",
         "zeroing_limit_time": "15 min",
-        "Drop": "Random drop:",
+        "title_drop": "Random drop",
         "drop_name_1": "Golden Box",
         "drop_name_2": "Silver Box",
         "drop_name_3": "Golden Key",
@@ -418,7 +416,7 @@
         "ticket_text_1": "Ticket of Endless Tower",
         "zeroing_limit": "Time",
         "zeroing_limit_time": "15 min",
-        "Drop": "Drop:",
+        "title_drop": "Drop",
         "drop_name_1": "WPoint and more",
         "drop_name_2": "Red Chocolate box",
         "Features": "Features",
@@ -441,7 +439,7 @@
         "number_limits": 4,
         "zeroing_limit": "Zeroing the limit:",
         "zeroing_limit_time": "12:00 AM",
-        "Drop": "Drop:",
+        "title_drop": "Drop",
         "drop_name_1": "Jewel of Bless",
         "drop_name_2": "Jewel of Soul",
         "drop_name_3": "Jewel of Chaos",
@@ -463,7 +461,7 @@
         "number_limits": 4,
         "zeroing_limit": "Zeroing the limit:",
         "zeroing_limit_time": "12:00 AM",
-        "Drop": "Drop:",
+        "title_drop": "Drop",
         "drop_name_1": "Jewel of Bless",
         "drop_name_2": "Jewel of Soul",
         "drop_name_3": "Jewel of Chaos",
@@ -486,7 +484,7 @@
         "ticket_text_1": "Gaion is Order (assembled from Suspicious Scrap of Paper x5)",
         "zeroing_limit": "Time",
         "zeroing_limit_time": "15 min",
-        "Drop": "Random drop:",
+        "title_drop": "Random drop",
         "drop_name_1": "Golden Box",
         "drop_name_2": "Silver Box",
         "drop_name_3": "Golden Key",
@@ -511,7 +509,7 @@
         "task_text_1": "Dominate and hold the spots.",
         "Ticket": "Ticket",
         "ticket_text_1": "Lost Map 1~7",
-        "Drop": "Drop:",
+        "title_drop": "Drop",
         "drop_name_1": "Jewel of Bless",
         "drop_name_2": "Jewel of Soul",
         "drop_name_3": "Jewel of Creation",

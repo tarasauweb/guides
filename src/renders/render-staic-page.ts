@@ -3,6 +3,7 @@ function renderStaticPage(tagForContent: HTMLElement, urlPage: string) {
   return fetch(urlPage)
     .then((data) => data.text())
     .then((data) => {
+      tagForContent.classList.remove('content__active');
       tagForContent.innerHTML = data;
       // eslint-disable-next-line no-restricted-globals
       history.pushState(null, 'null', '/');
