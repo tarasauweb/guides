@@ -522,7 +522,159 @@
   ],
   "random-bosses":[
     {
-      
+      "imgUrl": "../public/random-bosses/stalker.jpg",
+      "name": "Night Stalker",
+      "Location": "Dungeon",
+      "Respawn": "1 hour",
+      "Drop": "Red Ribon Box",
+      "Count": 1,
+      "Monsters": 10,
+      "info":{
+        "title": "Night Stalker",
+        "text": "Night Stalker - protects dungeons from any visitors. Not a difficult opponent, but veryvaluable for beginning players.",
+        "title_drop": "Drop: ",
+        "drop_boss_1": "Red Ribon Box"
+      }
+    },
+    {
+      "imgUrl": "../public/random-bosses/crab.jpg",
+      "name": "Crab",
+      "Location": "Dungeon",
+      "Respawn": "4 hour",
+      "Drop": "Scrolls",
+      "Count": 1,
+      "Monsters": 4,
+      "info":{
+        "title": "Crab",
+        "text": "Crab is an amazing creature, ready to fight with anyone, rare, but the reward for it is very impressive.",
+        "title_drop": "Drop: ",
+        "drop_boss_1": "Scroll of Health - increace magic +4000",
+        "drop_boss_2": "Scroll of Wizardy - increace magic +300",
+        "drop_boss_3": "Scroll of Wrath - increace attack +300",
+        "drop_boss_4": "Scroll of Defence - increace defence +300",
+        "drop_boss_5": "Scroll of Quickness - increace +100 attack speed",
+        "drop_boss_6": "Scroll of Mana - increace +8000"
+      }
+    },
+    {
+      "imgUrl": "../public/random-bosses/box.jpg",
+      "name": "Golden Box",
+      "Location": "Lorencia, Noria, Devias",
+      "Respawn": "4 hour",
+      "Drop": "Box of Kundun",
+      "Count": 1,
+      "Monsters": 3,
+      "info":{
+        "title": "Golden Box",
+        "text": "The Golden Box lives in the location of Laurencia, Noria, Devias - a very evil chest!",
+        "title_drop": "Drop: ",
+        "drop_boss_1": "Box of Kundun +1",
+        "drop_boss_2": "Box of Kundun +2",
+        "drop_boss_3": "Box of Kundun +3",
+        "drop_boss_4": "Box of Kundun +5"
+      }
+    },
+    {
+      "imgUrl": "../public/random-bosses/frog.jpg",
+      "name": "Ice Frog",
+      "Location": "Dungeon",
+      "Respawn": "1 hour",
+      "Drop": "Zen",
+      "Count": 1,
+      "Monsters": 10,
+      "info":{
+        "title": "Ice Frog",
+        "text": "Ice Frog is a small creature that can easily block your way in the dungeon!",
+        "title_drop": "Drop: ",
+        "drop_boss_1": "Zen"
+      }
+    },
+    {
+      "imgUrl": "../public/random-bosses/frog.jpg",
+      "name": "Metal Balrog",
+      "Location": "Dungeon",
+      "Respawn": "4 hour",
+      "Drop": "Ancient Items",
+      "Count": 1,
+      "Monsters": 4,
+      "info":{
+        "title": "Metal Balrog",
+        "text": "Metal Balrog - an important monster and dwells in a dungeon!",
+        "title_drop": "Drop: ",
+        "drop_boss_1": "Ancient Items"
+      }
+    },
+    {
+      "imgUrl": "../public/random-bosses/zaikan.jpg",
+      "name": "Zainkan",
+      "Location": "Dungeon",
+      "Respawn": "4 hour",
+      "Drop": "Various",
+      "Count": 1,
+      "Monsters": 2,
+      "info":{
+        "title": "Zainkan",
+        "text": "Zaikan - the great warrior guarding Tarkan's treasure to create two wings.",
+        "title_drop": "Drop: ",
+        "drop_boss_1": "Loch's Feather",
+        "drop_boss_2": "Monarch's Crest",
+        "drop_boss_3": "Jewel of Chaos"
+      }
+    }
+  ],
+  "epic-bosses": [
+    {
+      "imgUrl": "../public/epic-bosses/medusa.jpg",
+      "name": "Medusa",
+      "Location": "Swapm of Pease",
+      "Respawn": "12 hours",
+      "Drop": "Various",
+      "Count": 1,
+      "Monsters": 1,
+      "info":{
+        "title": "Medusa",
+        "text": "Medusa - a very dangerous enemy! Dwells in the lands of Swamp of Peas and guards great treasures.",
+        "title_drop": "Drop: ",
+        "drop_boss_1": "All Grade Socket Items",
+        "drop_boss_2": "Weapons",
+        "drop_boss_3": "Shields"
+      }
+    },
+    {
+      "imgUrl": "../public/epic-bosses/kundun.jpg",
+      "name": "Kundun",
+      "Location": "Dungeon",
+      "Respawn": "24 hours",
+      "Drop": "Ancient items",
+      "Count": 1,
+      "Monsters": 1,
+      "info":{
+        "title": "Kundun",
+        "text": "Kundun is the main evil of all the lands of MU Online. Very dangerous enemy and protects valuable treasures and dwells in the dungeon.",
+        "title_drop": "Drop: ",
+        "drop_boss_1": "2-3 Ancient items"
+      }
+    },
+    {
+      "imgUrl": "../public/epic-bosses/nightmare.jpg",
+      "name": "Nightmare",
+      "Location": "Kanturu Remain",
+      "Respawn": "24 hours",
+      "Drop": "Excellent Item",
+      "Count": 1,
+      "Monsters": 1,
+      "info":{
+        "title": "Nightmare",
+        "text": "Nightmare is a terrible boss, a very strong enemy! Guards very rare treasures and resides in Kanturu Remain.",
+        "title_drop": "Entry requires: ",
+        "drop_boss_1": "Moonstone Ring",
+        "drop_boss_2": "Weapons",
+        "drop_boss_3": "Shields",
+        "title_monster": "Drop:",
+        "about_monster_1": "Excellent Item",
+        "about_monster_2": "Sword of Archangel",
+        "about_monster_3": "Sceptr of Archangel"
+      }
     }
   ]
 }

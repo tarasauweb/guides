@@ -21,10 +21,10 @@ export interface IInfo {
   readonly imgUrl?: string;
   readonly title: string;
   readonly text: string;
-  readonly title_task: string;
+  readonly title_task?: string;
   readonly Location?: string;
   readonly about_task?: string;
-  readonly title_drop: string;
+  readonly title_drop?: string;
   readonly drop_boss_1?: string;
   readonly drop_boss_2?: string;
   readonly drop_boss_3?: string;
@@ -53,6 +53,9 @@ export interface IBriefInformation {
   readonly days?: string;
   readonly Respawn?: string;
   readonly Time?: string;
+  readonly Drop?: string | number;
+  readonly 'drop-count'?: string | number;
+  readonly 'monster-count'?: string | number;
   readonly info: IInfo;
 }
 export interface IDataBase {
@@ -86,6 +89,15 @@ export interface IDataBase {
     IBriefInformation,
     IBriefInformation,
   ];
+  'random-bosses': [
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+  ];
+  'epic-bosses': [IBriefInformation, IBriefInformation, IBriefInformation];
 }
 export interface IStore {
   readonly submenu: IstoreSubMenu;

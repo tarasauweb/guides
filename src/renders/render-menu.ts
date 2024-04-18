@@ -10,6 +10,8 @@ function renderMenu(
   links.forEach((item) => {
     item.addEventListener('click', (e) => {
       e.preventDefault();
+      links.forEach((link) => link.classList.remove('menu__link_active'));
+      item.classList.add('menu__link_active');
       if (prevSubMenu) {
         prevSubMenu.innerHTML = '';
       }
