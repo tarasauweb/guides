@@ -34,33 +34,35 @@ class CreateContentElement {
 
   private createContentInfo(props: IInfo) {
     const contentRight = document.createElement('div');
-    contentRight.classList.add('content__right');
-    Object.keys(props).forEach((elem) => {
-      if (elem === 'title') {
-        const title = document.createElement('h2');
-        title.classList.add('content__title');
-        title.textContent = `${props[elem as keyof typeof props]}`;
-        contentRight.insertAdjacentElement('afterbegin', title);
-      }
-      if (elem === 'text') {
-        const text = document.createElement('p');
-        text.classList.add('content__text');
-        text.textContent = `${props[elem as keyof typeof props]}`;
-        contentRight.insertAdjacentElement('beforeend', text);
-      }
-      if (elem.includes('title_')) {
-        const title = document.createElement('h3');
-        title.classList.add('content__subtitle');
-        title.textContent = `${props[elem as keyof typeof props]}`;
-        contentRight.insertAdjacentElement('beforeend', title);
-      }
-      if (elem !== 'title' && elem !== 'text' && !elem.includes('title_')) {
-        const otherInfo = document.createElement('p');
-        otherInfo.classList.add('content__subtext');
-        otherInfo.textContent = `${props[elem as keyof typeof props]}`;
-        contentRight.insertAdjacentElement('beforeend', otherInfo);
-      }
-    });
+    if (props) {
+      contentRight.classList.add('content__right');
+      Object.keys(props).forEach((elem) => {
+        if (elem === 'title') {
+          const title = document.createElement('h2');
+          title.classList.add('content__title');
+          title.textContent = `${props[elem as keyof typeof props]}`;
+          contentRight.insertAdjacentElement('afterbegin', title);
+        }
+        if (elem === 'text') {
+          const text = document.createElement('p');
+          text.classList.add('content__text');
+          text.textContent = `${props[elem as keyof typeof props]}`;
+          contentRight.insertAdjacentElement('beforeend', text);
+        }
+        if (elem.includes('title_')) {
+          const title = document.createElement('h3');
+          title.classList.add('content__subtitle');
+          title.textContent = `${props[elem as keyof typeof props]}`;
+          contentRight.insertAdjacentElement('beforeend', title);
+        }
+        if (elem !== 'title' && elem !== 'text' && !elem.includes('title_')) {
+          const otherInfo = document.createElement('p');
+          otherInfo.classList.add('content__subtext');
+          otherInfo.textContent = `${props[elem as keyof typeof props]}`;
+          contentRight.insertAdjacentElement('beforeend', otherInfo);
+        }
+      });
+    }
     return contentRight;
   }
 

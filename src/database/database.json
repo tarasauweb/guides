@@ -676,5 +676,119 @@
         "about_monster_3": "Sceptr of Archangel"
       }
     }
+  ],
+  "golden-bosses": [
+    {
+      "imgUrl": "../public/golden-bosses/goblin.jpg",
+      "name": "Golden Goblin",
+      "Location": "Noria",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +1",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/rabbit.jpg",
+      "name": "Golden Rabbit",
+      "Location": "Dungeon",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +1",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/soldier.jpg",
+      "name": "Golden Soldier",
+      "Location": "Noria",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +1",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/knight.jpg",
+      "name": "Golden D Knight",
+      "Location": "Dungeon",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +1",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/titan.jpg",
+      "name": "Golden Titan",
+      "Location": "Devias",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +1",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/vepar.jpg",
+      "name": "Golden Vepar",
+      "Location": "Atlans",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +2",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/b-dragon.jpg",
+      "name": "Golden B dragon",
+      "Location": "Dungeon, Lorencia",
+      "Respawn": "6 hours",
+      "Drop": "Box of Luck",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/lizard.jpg",
+      "name": "Golden Lizard",
+      "Location": "Atlans",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +2",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/devil.jpg",
+      "name": "Golden Devil",
+      "Location": "Noria",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +1",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/iron-w.jpg",
+      "name": "Golden Iron W",
+      "Location": "Noria",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +1",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/tantalos.jpg",
+      "name": "Golden Tantalos",
+      "Location": "Tarkan",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +3",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/crust.jpg",
+      "name": "Golden Crust",
+      "Location": "Icarus",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +3",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/satyros.jpg",
+      "name": "Golden Satyros",
+      "Location": "Kanturu",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +4",
+      "Count": 1
+    },
+    {
+      "imgUrl": "../public/golden-bosses/napin.jpg",
+      "name": "Golden Napin",
+      "Location": "LaCleon",
+      "Respawn": "6 hours",
+      "Drop": "Box of Kundun +5",
+      "Count": 1
+    }
   ]
 }
