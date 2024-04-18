@@ -43,64 +43,48 @@ export interface IInfo {
   readonly text_features_2?: string;
   readonly text_features_3?: string;
 }
-export interface IEvents {
+export interface IBriefInformation {
   readonly imgUrl: string;
   readonly name: string;
-  readonly NPC: string;
-  readonly Location: string;
-  readonly Start: string;
-  readonly days: string;
-  readonly time: string;
-  readonly info: IInfo;
-}
-export interface IInvasion {
-  readonly imgUrl: string;
-  readonly name: string;
-  readonly Quantity: number | string;
-  readonly Location: string;
-  readonly Respawn: string;
-  readonly Time: string;
-  readonly info: IInfo;
-}
-export interface iTicket_Events {
-  readonly imgUrl: string;
-  readonly name: string;
-  readonly NPC: string;
-  readonly Location: string;
-  readonly Respawn: '12:00 AM' | string;
-  readonly Limit: number | string;
+  readonly NPC?: string;
+  readonly Location?: string;
+  readonly Quantity?: number | string;
+  readonly Start?: string;
+  readonly days?: string;
+  readonly Respawn?: string;
+  readonly Time?: string;
   readonly info: IInfo;
 }
 export interface IDataBase {
   events: [
-    IEvents,
-    IEvents,
-    IEvents,
-    IEvents,
-    IEvents,
-    IEvents,
-    IEvents,
-    IEvents,
-    IEvents,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
   ];
   invasion: [
-    IInvasion,
-    IInvasion,
-    IInvasion,
-    IInvasion,
-    IInvasion,
-    IInvasion,
-    IInvasion,
-    IInvasion,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
   ];
   'ticket-events': [
-    iTicket_Events,
-    iTicket_Events,
-    iTicket_Events,
-    iTicket_Events,
-    iTicket_Events,
-    iTicket_Events,
-    iTicket_Events,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
+    IBriefInformation,
   ];
 }
 export interface IStore {

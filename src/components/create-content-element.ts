@@ -1,7 +1,7 @@
 // eslint-disable-next-line camelcase
-import { IEvents, IInvasion, iTicket_Events, IInfo } from '../interfaces';
+import { IBriefInformation, IInfo } from '../interfaces';
 // eslint-disable-next-line camelcase
-type contentType = IEvents | IInvasion | iTicket_Events;
+type contentType = IBriefInformation;
 class CreateContentElement {
   content: HTMLElement;
   props: Array<contentType>;
