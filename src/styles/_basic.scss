@@ -11,6 +11,7 @@ body{
   font-size: 16px;
   background: $mainBackGround;
   color: $mainColor;
+  
 }
 .container{
   width: 100%;
@@ -30,4 +31,16 @@ main{
   margin-top: 60px;
   @include flex(flex-start,start);
   width: 100%;
+}
+body::-webkit-scrollbar {
+  width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #3f3d3d; 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #595a5e; 
+  border-radius: 20px; 
 }

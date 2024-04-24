@@ -5,6 +5,8 @@
   padding-bottom: 80px;
   &__active{
     @include flex(space-between,flex-start);
+    overflow-y: scroll;
+    height: 100vh;
   }
   &__left{
     width: 100%;
@@ -16,10 +18,11 @@
     flex-basis: 37%;
   }
   &__block{
-    width: 270px;
+    max-width: 270px;
     height: 350px;
     margin-bottom: 20px;
     cursor: pointer;
+    flex-basis: 50%;
   }
   &__name{
     font-family: $fontFamilyMontserrat;
@@ -54,4 +57,17 @@
   &__subtitle{
     margin: 10px 0;
   }
+}
+
+.content::-webkit-scrollbar {
+  width: 3px;
+}
+
+.content::-webkit-scrollbar-track {
+  background: #3f3d3d; 
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: #595a5e; 
+  border-radius: 20px; 
 }
