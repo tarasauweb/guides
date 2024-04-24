@@ -1,5 +1,6 @@
 import { ISubMenu } from '../interfaces';
 import renderContent from '../renders/render-content';
+import startViewTransition from './startViewTransition';
 class CreateSubMenu {
   props: ISubMenu;
   selector: HTMLElement;
@@ -30,6 +31,7 @@ class CreateSubMenu {
     link.textContent = props.linkName;
     link.classList.add('menu__sublink');
     link.addEventListener('click', (e) => {
+      startViewTransition();
       e.preventDefault();
       // eslint-disable-next-line no-restricted-globals
       location.hash = props.type;
