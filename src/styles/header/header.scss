@@ -11,7 +11,7 @@
       color: $colorWhite;
       font-weight: 400;
       font-size: 20px;
-      font-family: $fontFamilyMontserrat serif;
+      font-family: $fontFamilyMontserrat;
       &:hover{
         background: #aa4040;
         transition:0.5s;
@@ -24,7 +24,7 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 22px;
-    font-family: $fontFamilyMontserrat serif;
+    font-family: $fontFamilyMontserrat;
       &__span:first-child{
         margin-right: 5px;
       }
