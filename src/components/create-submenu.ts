@@ -1,6 +1,6 @@
 import { ISubMenu } from '../interfaces';
 import renderContent from '../renders/render-content';
-import startViewTransition from './startViewTransition';
+import startViewTransition from '../renders/startViewTransition';
 class CreateSubMenu {
   props: ISubMenu;
   selector: HTMLElement;
